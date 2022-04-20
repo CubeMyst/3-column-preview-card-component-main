@@ -37,7 +37,7 @@ Los usuarios deben ser capaces de:
 ![](/images/code1.png)
 
 - Y como usar Markdown:
-    [LEEME.md](/LEEME.md).
+    [README.md](/README.md).
 
     Si desea obtener más ayuda para escribir Markdown, le recomendamos que consulte la [Guía de Markdown](https://www.markdownguide.org/) para obtener más información.
 
