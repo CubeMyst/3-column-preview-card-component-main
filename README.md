@@ -16,7 +16,7 @@ Los usuarios deben ser capaces de:
 
 ### Links
 
-- Github: []()
+- Github: [3-column preview card component](https://github.com/YeiserDeveloper/3-column-preview-card-component-main)
 - Live site: [3-column preview card component](https://sparkling-move.surge.sh/)
 
 ## Mi procesos
