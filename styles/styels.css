@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+* body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 15px;
+  width: 100vw;
+  height: 100vh;
+}
+
+* body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 100px;
+}
+
+* body .container .Box_1 {
+  background: #e38826;
+  padding: 50px;
+  border-radius: 15px 0 0 15px;
+}
+
+* body .container .Box_1 h1 {
+  margin-top: 30px;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+* body .container .Box_1 p {
+  width: 80%;
+  text-align: left;
+  line-height: 30px;
+  margin-bottom: 100px;
+}
+
+* body .container .Box_1 .btn {
+  font-family: 'Lexend Deca', sans-serif;
+  color: #e38826;
+  background: #f2f2f2;
+  border-radius: 50px;
+  padding: 20px 40px;
+  text-decoration: none;
+  border: 2px #f2f2f2 solid;
+  -webkit-transition: background 300ms;
+  transition: background 300ms;
+}
+
+* body .container .Box_1 .btn:hover {
+  color: #f2f2f2;
+  background: #e38826;
+  outline: none;
+  overflow: hidden;
+  outline-color: transparent;
+  outline-style: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+* body .container .Box_2 {
+  background: #006970;
+  padding: 50px;
+}
+
+* body .container .Box_2 h1 {
+  margin-top: 30px;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+* body .container .Box_2 p {
+  width: 80%;
+  text-align: left;
+  line-height: 30px;
+  margin-bottom: 100px;
+}
+
+* body .container .Box_2 .btn {
+  font-family: 'Lexend Deca', sans-serif;
+  color: #006970;
+  background: #f2f2f2;
+  border-radius: 50px;
+  padding: 20px 40px;
+  text-decoration: none;
+  border: 2px #f2f2f2 solid;
+  -webkit-transition: background 300ms;
+  transition: background 300ms;
+}
+
+* body .container .Box_2 .btn:hover {
+  color: #f2f2f2;
+  background: #006970;
+  outline: none;
+  overflow: hidden;
+  outline-color: transparent;
+  outline-style: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+* body .container .Box_3 {
+  background: #004241;
+  padding: 50px;
+  border-radius: 0 15px 15px 0;
+}
+
+* body .container .Box_3 h1 {
+  margin-top: 30px;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+* body .container .Box_3 p {
+  width: 80%;
+  text-align: left;
+  line-height: 30px;
+  margin-bottom: 100px;
+}
+
+* body .container .Box_3 .btn {
+  font-family: 'Lexend Deca', sans-serif;
+  color: #004241;
+  background: #f2f2f2;
+  border-radius: 50px;
+  padding: 20px 40px;
+  text-decoration: none;
+  border: 2px #f2f2f2 solid;
+  -webkit-transition: background 300ms;
+  transition: background 300ms;
+}
+
+* body .container .Box_3 .btn:hover {
+  color: #f2f2f2;
+  background: #004241;
+  outline: none;
+  overflow: hidden;
+  outline-color: transparent;
+  outline-style: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+* body h1 {
+  color: #f2f2f2;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+* body p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+* body a {
+  color: transparent;
+}
+
+* body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+* body .attribution a {
+  color: #3e52a3;
+}
+
+@media (max-width: 762px) {
+  body .container {
+    margin: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .container .Box_1 {
+    border-radius: 10px 10px 0 0;
+  }
+  body .container .Box_1 P {
+    margin-bottom: 40px;
+  }
+  body .container .Box_2 p {
+    margin-bottom: 40px;
+  }
+  body .container .Box_3 {
+    border-radius: 0 0 10px 10px;
+  }
+  body .container .Box_3 p {
+    margin-bottom: 40px;
+  }
+}
+/*# sourceMappingURL=styels.css.map */
