@@ -1,10 +1,12 @@
-export default function Card({ className, image, alt, title, article }) {
+export default function Card({ className, image, title, children }) {
   return (
     <section className={`box ${className}`}>
-      <img src={image} alt={alt} />
+      {image}
       <h1>{title}</h1>
-      <p>{article}</p>
-      <button className="btn">Learn More</button>
+      <p>{children}</p>
+      <button className="btn" type="button">
+        Learn More
+      </button>
     </section>
-  )
+  );
 }
